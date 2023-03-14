@@ -9,10 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>dao.Ads index</title>
+    <title>Ads Exercise</title>
 </head>
 <body>
-<h1>dao.Ads</h1>
+<h1>Ads Exercise</h1>
 <c:forEach var="ad" items="${ads}">
     <div>
         <h3>${ad.title}</h3>
