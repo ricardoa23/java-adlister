@@ -1,8 +1,8 @@
 USE adlister_db;
-
+drop table if exists ads;
 CREATE TABLE ads(
 id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-user_id INT UNSIGNED DEFAULT NULL,
+user_id INT UNSIGNED NOT NULL,
 title VARCHAR(255),
 description VARCHAR(750),
 PRIMARY KEY (id),
