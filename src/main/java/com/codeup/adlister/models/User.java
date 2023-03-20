@@ -1,5 +1,7 @@
 package com.codeup.adlister.models;
 
+import com.codeup.adlister.dao.Users;
+
 public class User {
     private long id;
     private String username;
@@ -46,4 +48,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }
